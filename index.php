@@ -1,10 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>PHP lydės ir <?php print date('l', strtotime('+1 day')) ?></title>
+        <title>Komentarai</title>
     </head>
     <body>
-        <h1>Vardas - PHP su manim buvo ir <?php print date('h', strtotime('-1 hours')) . ' valandą!' ?></h1>
-        <p><?php print date('Y', strtotime('+1 year')) . ' už kalnų!'; ?></p>   
+        <h1>Dainų Tekstai</h1> 
+        <h2>Paragrafo Daina</h2>
+        <p>Aš toks vienišas jaunas...</p>
+       <?php //<p>Mindau svetimo kodo gatves...</p> ?>
     </body>
 </html>
