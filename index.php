@@ -1,9 +1,27 @@
+
+    
 <?php
 
-    $paskola = rand(1, 100);
-    $palukanos = rand(101, 200);
-    $palukaneles = rand(201, 300);
-    
+$jibalnikai = [
+    'Petras' => [
+         'Vardas' => 'Petras Pirdzius',
+         'Statusas' => 'prapistas',
+         'Daiktas' => 'telefonas',
+    ],
+    'Tomas' => [
+        'Vardas' => 'Tomas Ablomas',
+        'Statusas' => 'naudojamas',
+        'Daiktas' => 'buljonas',
+        ],
+    'Ana' => [
+        'Vardas' => 'Ana Shitkova',
+        'Statusas' => 'pasibaiges',
+        'Daiktas' => 'rulonas',
+    ],
+];
+
+var_dump($jibalnikai);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,9 +30,8 @@
         <title>PHP lydės</title>
     </head>
     <body>
-        <h1>Skolos skaičiuoklė</h1>
-        <h2>Jei paėmei <?php print $paskola;?> jievru</h2>
-        <h3>Su dviem kabančiais grąžinsi <?php print $palukaneles;?></h3>
-        <h3>Su vienu kabančiu grąžinsi <?php print $palukanos;?></h3> 
+
+
+        
     </body>
 </html>
