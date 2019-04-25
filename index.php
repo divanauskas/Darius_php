@@ -1,26 +1,45 @@
-
-    
 <?php
 
-$jibalnikai = [
-    'Petras' => [
-         'Vardas' => 'Petras Pirdzius',
-         'Statusas' => 'prapistas',
-         'Daiktas' => 'telefonas',
-    ],
-    'Tomas' => [
-        'Vardas' => 'Tomas Ablomas',
-        'Statusas' => 'naudojamas',
-        'Daiktas' => 'buljonas',
+$vel_saldytuvas = [
+    'lentyna1' => [
+            'kiausai' => [
+                    'produktas' => 'Kiausiniai',
+                    'kiekis' => [3],
+            ],
+            'grietine' => [
+                    'produktas' => 'Grietine',
+                    'kiekis' => [1],
+            ],
+            'jogurtas' => [
+                    'produktas' => 'Jogurtas',
+                    'kiekis' => [2],
+             'zuvis' => [
+                    'produktas' => 'Zuvis',
+                    'kiekis' => [0],
+             ],
         ],
-    'Ana' => [
-        'Vardas' => 'Ana Shitkova',
-        'Statusas' => 'pasibaiges',
-        'Daiktas' => 'rulonas',
+    ],
+    'lentyna2' => [
+        'pienas' => [
+                'produktas' => 'Pienas',
+                'kiekis' => [1],
+        ],
+        'kefyras' => [
+                'produktas' => 'Kefyras',
+                'kiekis' => [0],
+        ],
+        'degtine' => [
+                'produktas' => 'Degtine',
+                'kiekis' => [2],
+        'kecupas' => [
+                'produktas' => 'Kecupas',
+                'kiekis' => [2],
+            ],
+        ],
     ],
 ];
 
-var_dump($jibalnikai);
+var_dump($vel_saldytuvas);
 
 ?>
 <!DOCTYPE html>
